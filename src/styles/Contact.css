@@ -1,0 +1,11 @@
+.send__btn {
+  padding: 7px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition-duration: 0.3s;
+  font-weight: 500;
+}
+.send__btn:hover {
+  background-color: #4b50e6;
+  color: #fff;
+}

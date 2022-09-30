@@ -1,0 +1,59 @@
+.backdrop {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0 0 0 / 95%);
+  flex-flow: column;
+}
+.upper__layer {
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border-top: 8px solid #e250e5;
+  border-bottom: 8px solid #4b50e6;
+  padding: 5px 0;
+  animation: rotate 1.5s infinite;
+}
+.loading__logo h2,
+.loading__logo .logo__icon {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+  font-size: 90px;
+}
+.logo__head {
+  animation: translate_left 3.5s linear;
+}
+.logo__icon {
+  animation: translate_right 3.45s linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes translate_left {
+  0% {
+    transform: translateX(500%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translate_right {
+  0% {
+    transform: translateX(-1500%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

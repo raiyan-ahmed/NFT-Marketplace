@@ -1,0 +1,125 @@
+.hero__section {
+  margin-top: 120px;
+}
+.hero__content h2 {
+  line-height: 55px;
+  font-size: 2.5rem;
+}
+.hero__content h2 span {
+  background: linear-gradient(
+    -45deg,
+    var(--clr-1),
+    var(--clr-2),
+    var(--clr-1),
+    var(--clr-2)
+  );
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+.hero__btns {
+  margin-top: 40px;
+}
+.hero__btns .explore__btn,
+.hero__btns .create__btn {
+  outline: none;
+  padding: 7px 25px;
+  border: 1px solid #5142fc;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  background: transparent;
+  color: #fff !important;
+  transition-duration: 0.7s;
+  box-shadow: 0 0 5px 0 #e250e5;
+}
+.hero__btns .explore__btn:hover,
+.hero__btns .create__btn:hover {
+  background-color: #5142fc;
+  transform: translateY(-40%);
+  box-shadow: none;
+}
+.explore__btn a,
+.create__btn a {
+  color: #fff;
+}
+.explore__btn i,
+.create__btn i {
+  font-size: 1rem;
+}
+.hero__btns button a:hover {
+  color: #fff;
+}
+.hero__img {
+  width: 500px;
+  margin-left: auto;
+  clip-path: polygon(
+    13% 0%,
+    100% 0,
+    100% 20%,
+    100% 80%,
+    87% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
+  transition-duration: 0.8s;
+}
+.hero__img:hover {
+  clip-path: polygon(
+    0 0,
+    85% 0%,
+    100% 20%,
+    100% 80%,
+    100% 100%,
+    15% 100%,
+    0% 80%,
+    0% 20%
+  );
+}
+.hero__img img {
+  border-radius: 7px;
+}
+@media only screen and (max-width:1024px){
+  .hero__img {
+    width: 455px;
+}
+}
+@media only screen and (max-width: 992px) {
+  /* =============== hero section ===== */
+  .hero__img {
+    width: 300px;
+  }
+  .hero__section {
+    margin-top: 90px;
+  }
+  .hero__content h2 {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  .hero__content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+  .create__btn,
+  .explore__btn {
+    padding: 4px 25px !important;
+  }
+  .create__btn a,
+  .explore__btn a {
+    font-size: 0.7rem;
+  }
+  /* =============== hero section ===== */
+}
+@media only screen and (max-width: 576px) {
+  .hero__img {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 414px){
+  .hero__content h2 {
+    line-height: 33px;
+}
+}

@@ -1,0 +1,82 @@
+.single__nft__img{
+    border-radius: 10px;
+}
+.single__nft__seen span i,.single__nft__more span i{
+    color:#fff;
+    padding: 5px;
+    background: #000;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.single__nft__seen span,.single__nft__more span{
+    color: #fff;
+    font-size: 0.8rem;
+}
+.single__nft__more span i{
+    background: #343444;
+}
+.nft__creator{
+    background: #343444;
+    padding: 15px;
+    border-radius: 7px;
+    width: 50%
+}
+.creator__details p{
+    font-size: 0.7rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.creator__details h6{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.single__nft__btn{
+    padding: 8px 25px;
+    background: #5142fc;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+}
+.single__nft__btn:hover{
+    background: #fff;
+}
+
+.single__nft__btn a{
+    color: #fff;
+    font-size: 1rem;
+}
+.single__nft__btn i{
+color: #fff;
+}
+.single__nft__btn:hover a,.single__nft__btn:hover i{
+    color: #5142fc;
+}
+@media only screen and (max-width:992px){
+    .single__nft__content h2{
+        font-size: 1.3rem;
+    }
+    .single__nft__content p,p.footer__text{
+        font-size: 0.8rem;
+        line-height: 28px;
+    }
+    .nft__creator{
+        width: 100%;
+    }
+    .single__nft__btn a {
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width:821px){
+    .single__nft__content p,p.footer__text {
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width:576px){
+    .single__nft__content h2{
+      margin-top: 15px;
+    }
+   
+}
