@@ -8,8 +8,8 @@ import "../styles/Market.css";
 const Market = () => {
   const [isSort, setIsSort] = useState(NFT__DATA);
   // to handle cateogriies
-  const handleCategories = () => {};
-  const handleItems = () => {};
+  const handleCategories = () => { };
+  const handleItems = () => { };
   // ============ sorting data w.r.t low high mid rates =============
   const handleSorting = (e) => {
     const price = e.target.value;
@@ -33,7 +33,7 @@ const Market = () => {
   return (
     <>
       <CommonSection
-        title={"Market Place"}
+        title={"Marketplace"}
         move="fade-up-right"
         duration="1000"
       />

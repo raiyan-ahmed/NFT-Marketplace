@@ -7,7 +7,7 @@ const NAV__LINKS = [
     url: "/home",
   },
   {
-    display: "Market",
+    display: "Marketplace",
     url: "/market",
   },
   {
@@ -41,7 +41,7 @@ const Header = () => {
       }
     });
     return () => {
-      window.removeEventListener("scroll", () => {});
+      window.removeEventListener("scroll", () => { });
     };
   }, []);
   // ======== activate mobile menu =======
